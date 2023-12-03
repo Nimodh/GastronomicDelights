@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    padding: 1em;
+}
+
+.contact-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.contact-card h2 {
+    margin: 10px 0;
+}
+
+.contact-card p {
+    margin: 5px 0;
+}
+a { 
+    text-decoration: none; 
+    color: inherit;
+}
